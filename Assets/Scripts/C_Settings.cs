@@ -19,8 +19,8 @@ public class C_Settings: MonoBehaviour
         
     }
 
-    public static float _distColorChange = 20;
-    public float distColorChange = 20;
+    public float _distColorChange = 20;
+    public static float distColorChange = 20;
     public static Color[] goodColor;
     public static Color[] badColor;
     int numWall;
@@ -30,8 +30,8 @@ public class C_Settings: MonoBehaviour
     private void Start()
     {
         numWall = Mathf.FloorToInt(road.transform.lossyScale.z / _distColorChange);
-        goodColor = new Color[numWall];
-        badColor = new Color[numWall];
+        goodColor = new Color[numWall + 1];
+        badColor = new Color[numWall + 1];
         generateWalls();   
     }
     void generateWalls() //Генерация стен
@@ -39,17 +39,17 @@ public class C_Settings: MonoBehaviour
         GameObject parentWall = Instantiate(new GameObject("Walls"), Vector3.zero, Quaternion.identity);
         GameObject oldWall = null, newWall;
         Color c;
-        for (int i = 1; i <= numWall; i++)
+        for (int i = 0; i <= numWall; i++)
         {
             newWall = Instantiate(wall, Vector3.forward * i * _distColorChange, Quaternion.identity, parentWall.transform);
             c = GetColor(0.3f);
-            if (i > 1)
+            if (i > 0)
             {
                 while (oldWall.GetComponentInChildren<Renderer>().material.color == c) c = GetColor(0.3f);
             }
             oldWall = newWall;
             newWall.GetComponentInChildren<Renderer>().material.color = c;
-            goodColor[i - 1] = c;
+            goodColor[i] = c;
             while (goodColor[i] == c) c = GetColor(0.3f);
             badColor[i] = c;
         }
@@ -83,9 +83,9 @@ public class C_Settings: MonoBehaviour
     {
         return GetColor(Random.Range(0,colors.Length));
     }
-    public static Color GetColor(bool snake)
+    public static Color GetColor(bool snake, int num)
     {
-        return snake ? snakeColor : badFoodColor;
+        return snake ? goodColor[num] : badColor[num];
     }
     public static Color GetColor(float alpha)
     {

@@ -14,6 +14,6 @@ public class C_Food : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Renderer>().material.color = C_Settings.GetColor(good);
+        GetComponent<Renderer>().material.color = C_Settings.GetColor(good, Mathf.FloorToInt(transform.position.z/C_Settings.distColorChange));
     }
 }

@@ -14,7 +14,7 @@ public class C_Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        recolor(C_Settings.snakeColor); //Контроль цвета змейки
+        recolor(Color.white); //Контроль цвета змейки
         
     }
 
