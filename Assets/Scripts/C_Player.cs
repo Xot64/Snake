@@ -9,13 +9,14 @@ public class C_Player : MonoBehaviour
     void Start()
     {
         speed = C_Settings.playerSpeed;
+        recolor(Color.white);
     }
 
     // Update is called once per frame
     void Update()
     {
-        recolor(Color.white); //Контроль цвета змейки
         
+        Movement();
     }
 
     void recolor(Color c)
@@ -30,4 +31,17 @@ public class C_Player : MonoBehaviour
     {
         transform.parent.position += speed * Time.deltaTime * Vector3.forward;
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("Перекрашен");
+        if (other.tag == "Wall")
+        {
+            Color c = other.GetComponent<Renderer>().material.color;
+            c.a = 1f;
+            recolor(c);
+            Destroy(other.transform.parent.gameObject);
+        }
+    }
+
 }
