@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5288129088466204632}
   - component: {fileID: 5288129088466204635}
   m_Layer: 1
-  m_Name: Spawn
+  m_Name: FoodSpawn
   m_TagString: EditorOnly
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -92,7 +92,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acf8da9d0f3287e488b9c6c26c12a2cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  settings: {fileID: 0}
-  dist: 0.4
-  food: {fileID: 3871950752795534791, guid: c92b73dcde5f28444b19394c3ae55a11, type: 3}
+  dist: 0.3
+  spawnObject: {fileID: 3871950752795534791, guid: c92b73dcde5f28444b19394c3ae55a11,
+    type: 3}
   num: 0400000006000000
