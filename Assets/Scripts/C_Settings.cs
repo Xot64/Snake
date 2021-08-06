@@ -8,13 +8,10 @@ public class C_Settings: MonoBehaviour
     public        Color[] _colors = { Color.red, Color.green, Color.blue, Color.yellow, Color.cyan, Color.magenta };
     public static Color snakeColor;
     public static Color badFoodColor;
-    public static float  playerSpeed = 1f;
-    public        float _playerSpeed = 1f;
     private void Awake()
     {
         SetColor(GetColor());
         colors = _colors;
-        playerSpeed = _playerSpeed;
         distColorChange = _distColorChange;
         
     }

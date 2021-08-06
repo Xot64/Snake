@@ -4,18 +4,16 @@ using UnityEngine;
 
 public class C_Player : MonoBehaviour
 {
-    float speed;
+
     // Start is called before the first frame update
     void Start()
     {
-        speed = C_Settings.playerSpeed;
         recolor(Color.white);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
         Movement();
     }
 
@@ -27,14 +25,25 @@ public class C_Player : MonoBehaviour
             r.material.color = c;
         }
     }
+
+    public Vector2 speed = new Vector2(0.01f, 3);
+    public float sensitive = 1.5f;
     void Movement()
     {
-        transform.parent.position += speed * Time.deltaTime * Vector3.forward;
+        transform.parent.position += speed.y * Time.deltaTime * Vector3.forward;
+        //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
+        if (Input.GetMouseButton(0))
+        {
+
+            Vector3 newPos = Mathf.Clamp((Input.mousePosition.x - Screen.width / 2) / (Screen.width / 2), -1f, 1f) * Vector3.right * sensitive;
+            GetComponent<Rigidbody>().velocity = (newPos - transform.position.x * Vector3.right) * speed.x;
+        }
+        else GetComponent<Rigidbody>().velocity = Vector3.zero;
     }
+
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log("Перекрашен");
         if (other.tag == "Wall")
         {
             Color c = other.GetComponent<Renderer>().material.color;
