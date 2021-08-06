@@ -28,17 +28,28 @@ public class C_Player : MonoBehaviour
 
     public Vector2 speed = new Vector2(0.01f, 3);
     public float sensitive = 1.5f;
+    bool enCotrol = true;
+    Color myColor;
     void Movement()
     {
         transform.parent.position += speed.y * Time.deltaTime * Vector3.forward;
         //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
-        if (Input.GetMouseButton(0))
+        if (!fever)
         {
+            recolor(myColor);
+            if (Input.GetMouseButton(0))
+            {
 
-            Vector3 newPos = Mathf.Clamp((Input.mousePosition.x - Screen.width / 2) / (Screen.width / 2), -1f, 1f) * Vector3.right * sensitive;
-            GetComponent<Rigidbody>().velocity = (newPos - transform.position.x * Vector3.right) * speed.x;
+                Vector3 newPos = Mathf.Clamp((Input.mousePosition.x - Screen.width / 2) / (Screen.width / 2), -1f, 1f) * Vector3.right * sensitive;
+                GetComponent<Rigidbody>().velocity = (newPos - transform.position.x * Vector3.right) * speed.x;
+            }
+            else { GetComponent<Rigidbody>().velocity = Vector3.zero; }
         }
-        else GetComponent<Rigidbody>().velocity = Vector3.zero;
+        else 
+        { 
+            GetComponent<Rigidbody>().velocity = (-transform.position.x * Vector3.right) * speed.x;
+            recolor(Color.white);
+        }
     }
 
 
@@ -46,11 +57,55 @@ public class C_Player : MonoBehaviour
     {
         if (other.tag == "Wall")
         {
-            Color c = other.GetComponent<Renderer>().material.color;
-            c.a = 1f;
-            recolor(c);
+            myColor = other.GetComponent<Renderer>().material.color;
+            myColor.a = 1f;
             Destroy(other.transform.parent.gameObject);
         }
-    }
+        if (other.tag == "Gem")
+        {
+            takeGem();
+            Destroy(other.gameObject);
 
+
+        }
+        if (other.tag == "Food")
+        {
+            if ((other.GetComponent<C_Food>().good) || (fever))
+            {
+                C_Status.food++;
+                Destroy(other.gameObject);
+            }
+            else gameOver();
+            
+
+        }
+    }
+    float lastGem = 0f;
+    int gemRow;
+    public float gemPeriod = 0.5f;
+    bool fever;
+    void takeGem()
+    {
+        C_Status.gems++;
+        if (Time.time - lastGem <= gemPeriod)
+        {
+            gemRow++;
+        }
+        else
+        {
+            gemRow = 0;
+        }
+        if (gemRow == 3)
+        {
+            C_Status.gems = 0;
+            enCotrol = false;
+            fever = true;
+        }
+
+
+    }
+    void gameOver ()
+    {
+        Debug.Log("GameOver");
+    }
 }
