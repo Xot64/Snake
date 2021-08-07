@@ -23,6 +23,7 @@ public class C_Player : MonoBehaviour
         foreach (Renderer r in snake)
         {
             r.material.color = c;
+            C_Settings.snakeColor = c;
         }
     }
 
