@@ -51,6 +51,7 @@ public class C_Player : MonoBehaviour
             GetComponent<Rigidbody>().velocity = (-transform.position.x * Vector3.right) * speed.x;
             recolor(Color.white);
         }
+        transform.eulerAngles = new Vector3(transform.eulerAngles.x, Mathf.Atan2(3, -GetComponent<Rigidbody>().velocity.x) / Mathf.PI*180 - 90, transform.eulerAngles.z);
     }
 
 
