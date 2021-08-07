@@ -31,27 +31,40 @@ public class C_Player : MonoBehaviour
     public float sensitive = 1.5f;
     bool enCotrol = true;
     Color myColor;
+    public float feverPeriod = 6f;
     void Movement()
     {
-        transform.parent.position += speed.y * Time.deltaTime * Vector3.forward;
-        //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
-        if (!fever)
+        if (C_Status.GM == mode.game)
         {
-            recolor(myColor);
-            if (Input.GetMouseButton(0))
+            transform.parent.position += speed.y * Time.deltaTime * Vector3.forward * (fever ? 3 : 1);
+            //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
+            if (!fever)
             {
+                recolor(myColor);
+                if (Input.GetMouseButton(0))
+                {
 
-                Vector3 newPos = Mathf.Clamp((Input.mousePosition.x - Screen.width / 2) / (Screen.width / 2), -1f, 1f) * Vector3.right * sensitive;
-                GetComponent<Rigidbody>().velocity = (newPos - transform.position.x * Vector3.right) * speed.x;
+                    Vector3 newPos = Mathf.Clamp((Input.mousePosition.x - Screen.width / 2) / (Screen.width / 2), -1f, 1f) * Vector3.right * sensitive;
+                    GetComponent<Rigidbody>().velocity = (newPos - transform.position.x * Vector3.right) * speed.x;
+                }
+                else { GetComponent<Rigidbody>().velocity = Vector3.zero; }
             }
-            else { GetComponent<Rigidbody>().velocity = Vector3.zero; }
+            else
+            {
+                if (Time.time - lastFeverTime > feverPeriod)
+                {
+                    fever = false;
+                    C_Status.gems = 0;
+                }
+                GetComponent<Rigidbody>().velocity = (-transform.position.x * Vector3.right) * speed.x;
+                recolor(Color.white);
+            }
+            transform.eulerAngles = new Vector3(transform.eulerAngles.x, Mathf.Atan2(3, -GetComponent<Rigidbody>().velocity.x) / Mathf.PI * 180 - 90, transform.eulerAngles.z);
         }
-        else 
-        { 
-            GetComponent<Rigidbody>().velocity = (-transform.position.x * Vector3.right) * speed.x;
-            recolor(Color.white);
+        else
+        {
+            GetComponent<Rigidbody>().velocity = Vector3.zero;
         }
-        transform.eulerAngles = new Vector3(transform.eulerAngles.x, Mathf.Atan2(3, -GetComponent<Rigidbody>().velocity.x) / Mathf.PI*180 - 90, transform.eulerAngles.z);
     }
 
 
@@ -65,7 +78,7 @@ public class C_Player : MonoBehaviour
         }
         if (other.tag == "Gem")
         {
-            takeGem();
+            if (!fever) takeGem();
             Destroy(other.gameObject);
 
 
@@ -78,14 +91,19 @@ public class C_Player : MonoBehaviour
                 Destroy(other.gameObject);
             }
             else gameOver();
-            
-
         }
+        if (other.tag == "Bomb")
+        {
+            if (!fever) gameOver();
+            Destroy(other.gameObject);
+        }
+
     }
     float lastGem = 0f;
     int gemRow;
     public float gemPeriod = 0.5f;
     bool fever;
+    float lastFeverTime = 0f;
     void takeGem()
     {
         C_Status.gems++;
@@ -99,15 +117,17 @@ public class C_Player : MonoBehaviour
         }
         if (gemRow == 3)
         {
-            C_Status.gems = 0;
             enCotrol = false;
             fever = true;
+            lastFeverTime = Time.time;
         }
+        lastGem = Time.time;
 
 
     }
     void gameOver ()
     {
         Debug.Log("GameOver");
+        C_Status.GM = mode.lose;
     }
 }
