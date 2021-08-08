@@ -12,7 +12,7 @@ public class C_Player : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         Movement();
     }
