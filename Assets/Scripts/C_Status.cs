@@ -8,12 +8,20 @@ public struct C_Status
     public static int gemsRow = 0;
     public static int food = 0;
     public static int level = 1;
-    public static bool game = true;
     public static mode GM = mode.game;
+
+    public static void rest()
+    {
+        gems = 0;
+        gemsRow = 0;
+        food = 0;
+        GM = mode.game;
+    }
 }
 public enum mode
 {
     game,
     lose,
-    win
+    win,
+    undead
 }

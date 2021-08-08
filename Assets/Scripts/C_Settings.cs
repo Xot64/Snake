@@ -13,6 +13,7 @@ public class C_Settings: MonoBehaviour
         SetColor(GetColor());
         colors = _colors;
         distColorChange = _distColorChange;
+        C_Status.GM = mode.game;
         
     }
 

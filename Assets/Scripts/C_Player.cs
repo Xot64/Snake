@@ -8,6 +8,7 @@ public class C_Player : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        lastFeverTime = Time.time - feverPeriod - undeadTime;
         recolor(Color.white);
     }
 
@@ -19,6 +20,7 @@ public class C_Player : MonoBehaviour
 
     void recolor(Color c)
     {
+        if (C_Status.GM == mode.undead) c.a = 0.3f;
         Renderer[] snake = transform.parent.GetComponentsInChildren<Renderer>();
         foreach (Renderer r in snake)
         {
@@ -32,14 +34,23 @@ public class C_Player : MonoBehaviour
     bool enCotrol = true;
     Color myColor;
     public float feverPeriod = 6f;
+    public float undeadTime = 1.5f;
     void Movement()
     {
-        if (C_Status.GM == mode.game)
+        if ((C_Status.GM == mode.game) || (C_Status.GM == mode.undead))
         {
             transform.parent.position += speed.y * Time.deltaTime * Vector3.forward * (fever ? 3 : 1);
             //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
             if (!fever)
             {
+                if (Time.time - lastFeverTime < feverPeriod + undeadTime)
+                {
+                    C_Status.GM = mode.undead;
+                }
+                else
+                { 
+                    C_Status.GM = mode.game; 
+                }
                 recolor(myColor);
                 if (Input.GetMouseButton(0))
                 {
@@ -85,17 +96,24 @@ public class C_Player : MonoBehaviour
         }
         if (other.tag == "Food")
         {
-            if ((other.GetComponent<C_Food>().good) || (fever))
+            if (C_Status.GM != mode.undead)
             {
-                C_Status.food++;
-                Destroy(other.gameObject);
+                if ((other.GetComponent<C_Food>().good) || (fever))
+                {
+                    C_Status.food++;
+                    Destroy(other.gameObject);
+                }
+                else gameOver();
             }
-            else gameOver();
         }
-        if (other.tag == "Bomb")
+        if ((other.tag == "Bomb") && (C_Status.GM != mode.undead))
         {
             if (!fever) gameOver();
             Destroy(other.gameObject);
+        }
+        if (other.tag == "Finish")
+        {
+            C_Status.GM = mode.win;
         }
 
     }
