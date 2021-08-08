@@ -158,7 +158,7 @@ public class C_Player : MonoBehaviour
     }
     void gameOver ()
     {
-        Debug.Log("GameOver");
+        //Debug.Log("GameOver");
         C_Status.GM = mode.lose;
     }
 }

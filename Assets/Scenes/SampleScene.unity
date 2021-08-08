@@ -194,6 +194,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (121)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &4391288 stripped
@@ -350,6 +360,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (210)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &24486806
@@ -418,6 +438,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -488,6 +518,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (223)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &26303023 stripped
@@ -496,81 +536,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 973040077}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &31829646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31829647}
-  - component: {fileID: 31829649}
-  - component: {fileID: 31829648}
-  m_Layer: 5
-  m_Name: I_Gem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &31829647
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31829646}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 571052619}
-  m_Father: {fileID: 409347603}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!114 &31829648
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31829646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.8473487, g: 0, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d339a57e8263f964aa7f52db4ced79e2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &31829649
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 31829646}
-  m_CullTransparentMesh: 0
 --- !u!1001 &31898931
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -782,6 +747,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (84)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &46670760
@@ -850,6 +825,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (44)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -1283,6 +1268,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (133)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &77716851
@@ -1426,6 +1421,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -1658,6 +1663,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &99001106 stripped
@@ -1820,6 +1835,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (37)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &124124993 stripped
@@ -1981,6 +2006,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (120)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -2201,6 +2236,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (252)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &144184765
@@ -2365,84 +2410,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 749737130}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &164141542
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 164141543}
-  - component: {fileID: 164141545}
-  - component: {fileID: 164141544}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &164141543
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164141542}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1688449213}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &164141544
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164141542}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: NEXT
---- !u!222 &164141545
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 164141542}
-  m_CullTransparentMesh: 0
 --- !u!4 &168927546 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5470682817629004916, guid: e2b9a6b8e4b78f145926992517d6dee6,
@@ -2545,6 +2512,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (188)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -2695,6 +2672,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (250)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -2951,6 +2938,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &220210719 stripped
@@ -3025,6 +3022,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -3389,6 +3396,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (199)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &251044378 stripped
@@ -3551,6 +3568,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &276387136 stripped
@@ -3632,6 +3659,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (231)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &285154257
@@ -3700,6 +3737,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (237)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -3770,6 +3817,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (66)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &287530725
@@ -3838,6 +3895,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (214)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4045,6 +4112,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (56)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4283,6 +4360,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (182)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &309170922
@@ -4352,6 +4439,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &309589945
@@ -4420,6 +4517,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (101)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4495,6 +4602,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4601,6 +4718,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (201)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &340982802
@@ -4669,6 +4796,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (28)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4739,6 +4876,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (59)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &343869972
@@ -4807,6 +4954,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -4882,6 +5039,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -5045,6 +5212,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (195)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &351908188
@@ -5113,6 +5290,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -5183,6 +5370,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &357799302
@@ -5251,6 +5448,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (87)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -5426,6 +5633,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (38)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &379701599 stripped
@@ -5600,6 +5817,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &403096560 stripped
@@ -5681,6 +5908,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (244)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &407958445 stripped
@@ -5695,81 +5932,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 49985029}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &409347602
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 409347603}
-  - component: {fileID: 409347605}
-  - component: {fileID: 409347604}
-  m_Layer: 5
-  m_Name: Gem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &409347603
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409347602}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 31829647}
-  m_Father: {fileID: 1365826010}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 80, y: 40}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &409347604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409347602}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.50980395}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fa9a5ff2362b92439af84e1072775d3, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &409347605
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409347602}
-  m_CullTransparentMesh: 0
 --- !u!1001 &412077222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5918,6 +6080,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (124)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &424389567
@@ -6056,6 +6228,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (61)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &440074004 stripped
@@ -6131,6 +6313,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (50)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &442439210
@@ -6199,6 +6391,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (64)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -6407,6 +6609,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (60)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &456888718
@@ -6475,6 +6687,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (224)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -6545,6 +6767,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (243)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &463009446
@@ -6613,6 +6845,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -6683,6 +6925,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (256)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &472813036
@@ -6751,6 +7003,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (108)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -6821,6 +7083,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (94)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &473425511 stripped
@@ -6829,84 +7101,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 917454577}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &475163454
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 475163455}
-  - component: {fileID: 475163456}
-  - component: {fileID: 475163457}
-  m_Layer: 5
-  m_Name: T_Food
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &475163455
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475163454}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 768893539}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 30}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!222 &475163456
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475163454}
-  m_CullTransparentMesh: 0
---- !u!114 &475163457
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475163454}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 999
 --- !u!1001 &480946153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6973,6 +7167,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (203)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -7060,6 +7264,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (234)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -7286,6 +7500,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (89)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &510619887
@@ -7436,6 +7660,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &525604758
@@ -7504,6 +7738,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (96)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -7661,6 +7905,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (181)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &553169753
@@ -7729,6 +7983,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (194)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -7801,162 +8065,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aae5bb5558464048a57fb9c3e806434, type: 3}
---- !u!1 &571052616
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 571052619}
-  - component: {fileID: 571052618}
-  - component: {fileID: 571052617}
-  m_Layer: 5
-  m_Name: T_Gem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &571052617
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571052616}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 18
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 999
---- !u!222 &571052618
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571052616}
-  m_CullTransparentMesh: 0
---- !u!224 &571052619
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 571052616}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 31829647}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 60, y: 30}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!1 &584173786
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 584173789}
-  - component: {fileID: 584173788}
-  - component: {fileID: 584173787}
-  m_Layer: 5
-  m_Name: Lev
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &584173787
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584173786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 1
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
---- !u!222 &584173788
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584173786}
-  m_CullTransparentMesh: 0
---- !u!224 &584173789
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 584173786}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1365826010}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 1}
 --- !u!4 &590206928 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5288129088466204614, guid: 5ddc13b045ddae048941b713982853f9,
@@ -8036,6 +8144,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (41)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &598502908
@@ -8104,6 +8222,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (69)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -8180,6 +8308,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &599801232 stripped
@@ -8255,6 +8393,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &608053154
@@ -8324,6 +8472,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &612278540
@@ -8392,6 +8550,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (198)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -8654,6 +8822,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (241)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &651075385 stripped
@@ -8731,84 +8909,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aae5bb5558464048a57fb9c3e806434, type: 3}
---- !u!1 &653554744
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 653554745}
-  - component: {fileID: 653554747}
-  - component: {fileID: 653554746}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &653554745
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653554744}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 813459349}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &653554746
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653554744}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: RESTART
---- !u!222 &653554747
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653554744}
-  m_CullTransparentMesh: 0
 --- !u!1001 &654271697
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8944,6 +9044,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -9164,6 +9274,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (236)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &671165382 stripped
@@ -9239,6 +9359,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &687504535
@@ -9308,6 +9438,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &689517536
@@ -9376,6 +9516,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (95)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -9643,6 +9793,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (184)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &707696867
@@ -9786,6 +9946,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (47)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -9967,6 +10137,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (77)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &738077867
@@ -10035,6 +10215,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (62)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -10191,6 +10381,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (70)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -10354,6 +10554,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (71)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &759879726 stripped
@@ -10386,81 +10596,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2139736971}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &768893538
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 768893539}
-  - component: {fileID: 768893541}
-  - component: {fileID: 768893540}
-  m_Layer: 5
-  m_Name: I_Food
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &768893539
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768893538}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 475163455}
-  m_Father: {fileID: 1795430829}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 30, y: 30}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!114 &768893540
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768893538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 336fa585e85f18246aa718303f32b6e3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &768893541
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 768893538}
-  m_CullTransparentMesh: 0
 --- !u!4 &772345181 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5288129088466204614, guid: 5ddc13b045ddae048941b713982853f9,
@@ -10540,6 +10675,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &779888790
@@ -10608,6 +10753,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (219)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -10759,6 +10914,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (55)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &790103673 stripped
@@ -10846,6 +11011,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (240)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &797255536
@@ -10929,136 +11104,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 2096079050}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &813459345
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 813459349}
-  - component: {fileID: 813459348}
-  - component: {fileID: 813459347}
-  - component: {fileID: 813459346}
-  m_Layer: 5
-  m_Name: RESTART
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &813459346
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813459345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 813459347}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1365826006}
-        m_MethodName: rest
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &813459347
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813459345}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.78431374, g: 0, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &813459348
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813459345}
-  m_CullTransparentMesh: 0
---- !u!224 &813459349
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813459345}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 653554745}
-  m_Father: {fileID: 1004193254}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 1}
 --- !u!4 &815682251 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5288129088466204614, guid: 5ddc13b045ddae048941b713982853f9,
@@ -11132,6 +11177,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (129)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &817915260
@@ -11201,6 +11256,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (217)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &818363193
@@ -11269,6 +11334,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (215)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -11517,6 +11592,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (227)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &837722642 stripped
@@ -11597,6 +11682,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (92)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -11679,6 +11774,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &846286144
@@ -11747,6 +11852,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (249)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -12009,6 +12124,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &895921587 stripped
@@ -12227,6 +12352,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -12522,6 +12657,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (128)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &926154671 stripped
@@ -12602,6 +12747,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (93)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -12696,6 +12851,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (233)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &953600026 stripped
@@ -12770,6 +12935,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -12852,6 +13027,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &963409513 stripped
@@ -12933,6 +13118,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (83)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &970187935 stripped
@@ -13008,6 +13203,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (48)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &973040077
@@ -13076,6 +13281,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (80)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -13500,86 +13715,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 75567094}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1004193253
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1004193254}
-  - component: {fileID: 1004193256}
-  - component: {fileID: 1004193255}
-  m_Layer: 5
-  m_Name: Status
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1004193254
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004193253}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1688449213}
-  - {fileID: 813459349}
-  m_Father: {fileID: 1365826010}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 100}
-  m_SizeDelta: {x: 0, y: 60}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1004193255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004193253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 40
-    m_FontStyle: 1
-    m_BestFit: 0
-    m_MinSize: 2
-    m_MaxSize: 40
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: New Text
---- !u!222 &1004193256
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004193253}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1011955775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14016,6 +14151,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (191)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1043979831
@@ -14084,6 +14229,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (242)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -14222,6 +14377,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (57)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -14436,6 +14601,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (247)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1069531216
@@ -14504,6 +14679,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -14712,6 +14897,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (115)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1080899313
@@ -14849,6 +15044,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -14994,6 +15199,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (251)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1 &1091834658 stripped
@@ -15116,6 +15331,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (212)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1092929560
@@ -15185,6 +15410,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (135)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1096395686
@@ -15253,6 +15488,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (58)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -15341,6 +15586,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (72)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1105024413
@@ -15409,6 +15664,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (204)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -15484,6 +15749,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -15571,6 +15846,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (216)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -15716,6 +16001,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (88)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1130044738
@@ -15785,6 +16080,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (45)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1144036455
@@ -15853,6 +16158,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (208)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -15935,6 +16250,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (230)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1156749840 stripped
@@ -16010,6 +16335,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (118)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1166082056
@@ -16079,6 +16414,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1166523162
@@ -16147,6 +16492,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (209)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -16398,6 +16753,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1182258729
@@ -16541,6 +16906,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (185)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -16710,6 +17085,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (30)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1 &1205479990 stripped
@@ -16790,6 +17175,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -16929,6 +17324,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (43)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1218092394
@@ -16998,6 +17403,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (105)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1219417002
@@ -17066,6 +17481,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (192)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -17223,6 +17648,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (113)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1236791482 stripped
@@ -17297,6 +17732,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (99)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -17608,6 +18053,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (238)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1264912538
@@ -17677,6 +18132,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1265437777
@@ -17745,6 +18210,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (235)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -17884,6 +18359,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (82)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1267807850 stripped
@@ -17959,6 +18444,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (225)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1268516432
@@ -18028,6 +18523,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (65)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1268600482
@@ -18096,6 +18601,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (222)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -18340,6 +18855,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (85)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1290448106
@@ -18408,6 +18933,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -18478,6 +19013,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1294957335
@@ -18546,6 +19091,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -18703,6 +19258,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1320924042
@@ -18771,6 +19336,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (98)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -18921,6 +19496,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (226)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -19092,128 +19677,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2b9a6b8e4b78f145926992517d6dee6, type: 3}
---- !u!1 &1365826005
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1365826010}
-  - component: {fileID: 1365826009}
-  - component: {fileID: 1365826008}
-  - component: {fileID: 1365826007}
-  - component: {fileID: 1365826006}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1365826006
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365826005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ba0f6572bdc42034a9d71e71522955d2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  level: {fileID: 584173787}
-  gem: {fileID: 571052617}
-  food: {fileID: 475163457}
-  status: {fileID: 1004193255}
-  foodIMG: {fileID: 768893540}
-  b_next: {fileID: 1688449212}
-  b_reset: {fileID: 813459345}
---- !u!114 &1365826007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365826005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1365826008
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365826005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1365826009
-Canvas:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365826005}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1365826010
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1365826005}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_Children:
-  - {fileID: 1795430829}
-  - {fileID: 409347603}
-  - {fileID: 584173789}
-  - {fileID: 1004193254}
-  m_Father: {fileID: 0}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
 --- !u!1001 &1375592106
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19418,6 +19881,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (221)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -19626,6 +20099,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (86)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1405649122 stripped
@@ -19719,6 +20202,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (228)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1424109564
@@ -19787,6 +20280,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -19862,6 +20365,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (200)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -20000,6 +20513,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (81)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -20144,6 +20667,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (40)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -20508,6 +21041,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (232)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1463895921 stripped
@@ -20588,6 +21131,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (257)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -20727,6 +21280,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (258)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1481628214
@@ -20865,6 +21428,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (255)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1482116577 stripped
@@ -20939,6 +21512,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (186)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -21015,6 +21598,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (183)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1486497324
@@ -21083,6 +21676,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (189)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -21177,6 +21780,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1506991116 stripped
@@ -21251,6 +21864,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -21597,6 +22220,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (259)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1536075980
@@ -21735,6 +22368,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (97)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1546367389 stripped
@@ -21810,6 +22453,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (78)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1548739416 stripped
@@ -21884,6 +22537,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (246)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -22022,6 +22685,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (51)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -22253,6 +22926,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (187)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -22530,6 +23213,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (68)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1568758129
@@ -22599,6 +23292,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (193)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1575594557
@@ -22667,6 +23370,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (52)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -22974,6 +23687,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1596560478
@@ -23181,6 +23904,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1604406809
@@ -23329,6 +24062,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -23497,6 +24240,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (213)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -23735,6 +24488,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (90)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1654118991
@@ -23873,6 +24636,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (197)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1659197938 stripped
@@ -23953,6 +24726,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -24035,6 +24818,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (140)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1669871582
@@ -24103,6 +24896,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (190)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -24173,6 +24976,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (74)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1675474739
@@ -24241,6 +25054,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -24331,136 +25154,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 827758077}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1688449212
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1688449213}
-  - component: {fileID: 1688449216}
-  - component: {fileID: 1688449215}
-  - component: {fileID: 1688449214}
-  m_Layer: 5
-  m_Name: NEXT
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1688449213
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688449212}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 164141543}
-  m_Father: {fileID: 1004193254}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: -10}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1688449214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688449212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1688449215}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1365826006}
-        m_MethodName: next
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1688449215
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688449212}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0.78431374, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1688449216
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688449212}
-  m_CullTransparentMesh: 0
 --- !u!4 &1689924738 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5470682817629004916, guid: e2b9a6b8e4b78f145926992517d6dee6,
@@ -24545,6 +25238,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -24765,6 +25468,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1712059971
@@ -24908,6 +25621,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (54)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -25190,6 +25913,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (91)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -25477,6 +26210,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (73)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1776248284
@@ -25545,6 +26288,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (79)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -25626,6 +26379,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -25765,6 +26528,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (205)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1792121061 stripped
@@ -25840,83 +26613,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (206)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
---- !u!1 &1795430828
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1795430829}
-  - component: {fileID: 1795430831}
-  - component: {fileID: 1795430830}
-  m_Layer: 5
-  m_Name: Food
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1795430829
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795430828}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 768893539}
-  m_Father: {fileID: 1365826010}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 60}
-  m_SizeDelta: {x: 80, y: 40}
-  m_Pivot: {x: 0, y: 0.5}
---- !u!114 &1795430830
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795430828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.50980395}
-  m_RaycastTarget: 1
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8fa9a5ff2362b92439af84e1072775d3, type: 3}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1795430831
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795430828}
-  m_CullTransparentMesh: 0
 --- !u!1001 &1796316315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25983,6 +26691,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (220)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -26203,6 +26921,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (196)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1806458416
@@ -26416,6 +27144,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (126)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1829926226
@@ -26485,6 +27223,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (260)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1836561290
@@ -26553,6 +27301,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (42)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -26628,6 +27386,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (202)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -26710,6 +27478,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (49)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1853636998
@@ -26778,6 +27556,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (239)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -26896,6 +27684,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (253)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1896437151
@@ -26964,6 +27762,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (254)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -27058,6 +27866,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (46)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1913098716
@@ -27126,6 +27944,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (31)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -27202,6 +28030,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (63)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1921186362 stripped
@@ -27277,6 +28115,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (39)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1926133874
@@ -27345,6 +28193,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (248)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -27577,6 +28435,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1941196316
@@ -27796,6 +28664,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (76)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1954491090
@@ -28009,6 +28887,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (218)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &1963547389 stripped
@@ -28156,6 +29044,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &1985202647
@@ -28224,6 +29122,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -28657,6 +29565,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (211)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &2009506599 stripped
@@ -28731,6 +29649,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (53)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -29044,6 +29972,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &2059677745
@@ -29113,6 +30051,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (207)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &2064274097
@@ -29181,6 +30129,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (229)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -29425,6 +30383,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (67)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &2092097576 stripped
@@ -29628,6 +30596,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (75)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!4 &2104768661 stripped
@@ -29702,6 +30680,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -29784,6 +30772,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (245)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &2124754528
@@ -29852,6 +30850,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FoodSpawn (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
@@ -30161,6 +31169,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: FoodSpawn (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5288129088466204634, guid: 5ddc13b045ddae048941b713982853f9,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5ddc13b045ddae048941b713982853f9, type: 3}
 --- !u!1001 &2139736971
@@ -30301,3 +31319,122 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7aae5bb5558464048a57fb9c3e806434, type: 3}
+--- !u!1001 &8744564412106063039
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_Pivot.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_Pivot.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207909, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8744564413437207914, guid: 0509f0023832ee14bbd72ce3c8d2ffd5,
+        type: 3}
+      propertyPath: m_Name
+      value: Canvas
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0509f0023832ee14bbd72ce3c8d2ffd5, type: 3}
