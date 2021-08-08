@@ -8,7 +8,7 @@ public class C_Vacuum : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        if (other.tag == "Food")
+        if ((other.tag == "Food") && (C_Status.GM == mode.game))
         {
             Vector3 direct = (other.transform.position - transform.position).normalized;
             other.transform.position -= direct * power * Time.deltaTime;

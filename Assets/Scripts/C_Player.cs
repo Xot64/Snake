@@ -15,6 +15,8 @@ public class C_Player : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+       
+        
         Movement();
     }
 
@@ -34,23 +36,26 @@ public class C_Player : MonoBehaviour
     bool enCotrol = true;
     Color myColor;
     public float feverPeriod = 6f;
-    public float undeadTime = 1.5f;
+    public float undeadTime = 0.5f;
     void Movement()
     {
+        
         if ((C_Status.GM == mode.game) || (C_Status.GM == mode.undead))
         {
+
+            if ((Time.time - lastFeverTime > feverPeriod - undeadTime) && (Time.time - lastFeverTime < feverPeriod + undeadTime))
+            {
+                C_Status.GM = mode.undead;
+            }
+            else { C_Status.GM = mode.game; } 
+                
+
             transform.parent.position += speed.y * Time.deltaTime * Vector3.forward * (fever ? 3 : 1);
+            
             //GetComponent<Rigidbody>().velocity = Swipe() * Vector3.right * speed.x;
             if (!fever)
             {
-                if (Time.time - lastFeverTime < feverPeriod + undeadTime)
-                {
-                    C_Status.GM = mode.undead;
-                }
-                else
-                { 
-                    C_Status.GM = mode.game; 
-                }
+                
                 recolor(myColor);
                 if (Input.GetMouseButton(0))
                 {
@@ -79,7 +84,7 @@ public class C_Player : MonoBehaviour
     }
 
 
-    private void OnTriggerEnter(Collider other)
+    private void OnTriggerStay(Collider other)
     {
         if (other.tag == "Wall")
         {
@@ -87,30 +92,38 @@ public class C_Player : MonoBehaviour
             myColor.a = 1f;
             Destroy(other.transform.parent.gameObject);
         }
-        if (other.tag == "Gem")
+        if (C_Status.GM != mode.undead)
         {
-            if (!fever) takeGem();
-            Destroy(other.gameObject);
-
-
-        }
-        if (other.tag == "Food")
-        {
-            if (C_Status.GM != mode.undead)
+            if (other.tag == "Gem")
             {
-                if ((other.GetComponent<C_Food>().good) || (fever))
+                if (!fever) takeGem();
+                Destroy(other.gameObject);
+
+
+            }
+            if (other.tag == "Food")
+            {
+                if (C_Status.GM != mode.undead)
                 {
-                    C_Status.food++;
-                    Destroy(other.gameObject);
+                    if ((other.GetComponent<C_Food>().good) || (fever))
+                    {
+                        C_Status.food++;
+                        Destroy(other.gameObject);
+                    }
+                    else
+                        gameOver();
                 }
-                else gameOver();
+            }
+            if (other.tag == "Bomb") 
+            {
+                if (!fever) gameOver();
+                Destroy(other.gameObject);
             }
         }
-        if ((other.tag == "Bomb") && (C_Status.GM != mode.undead))
-        {
-            if (!fever) gameOver();
-            Destroy(other.gameObject);
-        }
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+       
         if (other.tag == "Finish")
         {
             C_Status.GM = mode.win;

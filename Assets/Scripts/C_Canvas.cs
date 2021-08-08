@@ -28,6 +28,11 @@ public class C_Canvas : MonoBehaviour
                 b_reset.SetActive(false);
                 b_next.SetActive(false);
                 break;
+            case mode.undead:
+                status.text = "";
+                b_reset.SetActive(false);
+                b_next.SetActive(false);
+                break;
             case mode.lose:
                 status.text = "YOU LOSE";
                 b_reset.SetActive(true);
