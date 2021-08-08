@@ -11439,7 +11439,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825190102}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 5, y: 1, z: 1}
@@ -26089,7 +26089,7 @@ PrefabInstance:
     - target: {fileID: 3105281456035525864, guid: bc6fe90a7485e174c981461261e63b0f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.95
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 3105281456035525864, guid: bc6fe90a7485e174c981461261e63b0f,
         type: 3}
@@ -26135,6 +26135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: gemPeriod
       value: 0.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 7470031535292912958, guid: bc6fe90a7485e174c981461261e63b0f,
+        type: 3}
+      propertyPath: sensitive
+      value: 1.2
       objectReference: {fileID: 0}
     - target: {fileID: 7470031535292912958, guid: bc6fe90a7485e174c981461261e63b0f,
         type: 3}
